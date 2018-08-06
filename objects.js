@@ -1,1 +1,1 @@
-var playlist = {
+var playlist = { nirvana: "Come As You Are" };
