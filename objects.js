@@ -2,4 +2,6 @@ var playlist = {
   nirvana: "Come As You Are"
 };
 
-function 
+function updatePlaylist(playlist, artist, song) {
+  return Object.assign({}, playlist, {[key]: song});
+}
